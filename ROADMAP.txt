@@ -1,0 +1,7 @@
+1. Establish initial build system, tooling and libraries, platforms, other requirements.
+2. Initial DAG implementation, API-only front end (suitable for unit testing)
+3. Worker process implementation - a mechanism by which external processes may be launched and tracked, inputs and outputs tracked and fed back into the DAG.
+4. Memoization subsystem - recording previous results and using this information to avoid doing repeat work.
+5. Initial front-end - Input from a dependency specification, using either an existing format or creating a new one as proof-of-concept.
+6. Dogfooding - by this point we should be able to build our project with its own tooling.
+7. Refinement, iteration and extention. Specific tasks TBD.
