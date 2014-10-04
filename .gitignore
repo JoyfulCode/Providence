@@ -1,0 +1,8 @@
+bin\
+# Directories to be generally excluded
+int/**/*
+bin/**/*
+
+# VIM temp files
+*~
+.*.swp

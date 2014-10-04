@@ -1,0 +1,16 @@
+Directory layout:
+
+src/ 
+    All sources.
+
+int/
+    NO CHECKIN: Intermediate outputs and scratch directory for build.
+
+bin/
+    NO CHECKIN: Final outputs from the build.
+
+external/
+    Libraries, tools, sources and other artifacts which are required but not part of the source code base.
+
+doc/
+    Source documentation for the project
